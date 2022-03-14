@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-testing",
+  "version": "1.0.0",
+  "description": "esto es una prueba en clase con npm",
+  "main": "app.js",
+  "scripts": {
+    "loquesea": "node app.js",
+    "mitest": "echo 'esto es un test'"
+  },
+  "author": "aula05",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
