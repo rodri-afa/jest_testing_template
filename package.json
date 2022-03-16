@@ -4,8 +4,9 @@
   "description": "esto es una prueba en clase con npm",
   "main": "app.js",
   "scripts": {
-    "loquesea": "node app.js",
-    "mitest": "echo 'esto es un test'"
+    "start": "node app.js",
+    "mitest": "echo 'esto es un test'",
+    "test": "jest"
   },
   "author": "aula05",
   "license": "MIT",
