@@ -1,4 +1,5 @@
 function saludar(nombre) {
+    // return "Hola " + nombre;
     return "Hola " + nombre;
 }
 
