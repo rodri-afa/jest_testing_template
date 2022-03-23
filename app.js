@@ -1,5 +1,5 @@
 function saludar(nombre) {
-    return "¿Qué tal " + nombre + "?";
+    return "Hola " + nombre;
 }
 
 module.exports = saludar;

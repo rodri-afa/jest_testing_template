@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "mitest": "echo 'esto es un test'",
-    "test": "jest"
+    "test": "jest",
+    "test-watch": "jest --watch"
   },
   "author": "aula05",
   "license": "MIT",
