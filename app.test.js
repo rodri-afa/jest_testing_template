@@ -1,15 +1,15 @@
-const saludarFn = require("./app");
+const app = require("./app");
 
 describe("mi programa increible", () => {
-    test("comprobación", () => {
+    test("jest funciona", () => {
         expect(true).toBe(true);
     });
 
-    test("devuelve lo esperado", () => {
-        expect(saludarFn("Antonio")).toBe("Hola Antonio");
+    test("saluda correctamente", () => {
+        expect(app.saludar("Antonio")).toBe("Hola Antonio");
     });
 
-    // test("devuelve lo esperado", () => {
-    //     expect(saludarFn("Antonio")).toBe("Hola Antonio");
-    // });
+    test("se despide correctamente", () => {
+        expect(app.despedida("Antonio")).toBe("Adios Antonio");
+    });
 });

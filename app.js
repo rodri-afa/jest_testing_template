@@ -1,6 +1,8 @@
 function saludar(nombre) {
-    // return "Hola " + nombre;
     return "Hola " + nombre;
 }
+function despedida(nombre) {
+    return "Adios " + nombre;
+}
 
-module.exports = saludar;
+module.exports = { saludar, despedida };
